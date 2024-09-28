@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="my portfolio website to showcase the work I have done so far, the services I provide and all my professionals life.">
+  <title>Swati Portfolio</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <img src="images/logo3.png" style="border-radius: 50%;" alt="swati goswami logo" class="logo" />
+    <nav class="navbar">
+      <ul class="navbar-lists">
+        <li><a class="navbar-link home-link" href="#">Home</a></li>
+        <li><a class="navbar-link about-link" href="#about-me">About</a></li>
+        <li><a class="navbar-link portfolio-link" href="#portfolio-section">Portfolio</a></li>
+        <li>
+          <a class="navbar-link" href="#contact-me"">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="mobile-navbar-btn">
+      <ion-icon class="mobile-nav-icon" name="menu-outline" class="mobile-nav-icon"></ion-icon>
+
+      <ion-icon class="mobile-nav-icon" name="close-outline" class="mobile-nav-icon"></ion-icon>
+    </div>
+  </header>
+
+  <!-- ======================================== 
+          Our Main Hero Section Start  
+    ========================================  -->
+  <main>
+    <section class="section-hero section">
+      <div class="container grid grid-two-col">
+        <div class="section-hero-data">
+          <p class="hero-top-data">this is me</p>
+          <span class="animation" id="element"></span>
+
+          <!-- <h1 class="hero-heading">Swati Goswami</h1> -->
+          <p class="hero-para">
+            Hello! My name is Swati Goswami, and I am a passionate web developer with a strong foundation in computer
+            science.
+            I graduated with a B.Tech in Computer Science and Engineering from FIT College.
+            My goal is to leverage my technical skills and creativity to build innovative
+            and user-friendly web applications.
+          </p>
+          <div>
+            <a href="#contact-me" target="_blank" class="btn hireme-btn">Hire Me</a>
+          </div>
+        </div>
+
+        <div class="section-hero-image">
+          <img src="images/hero.jpg" style="border-radius: 5%;" alt="hero image" class="hero-img" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================== 
+           Bio Data Section Start  
+    ========================================  -->
+  <section class="section-biodata section" id="about-me">
+    <div class="container grid grid-two-col">
+      <div class="bio-image">
+        <img src="images/biodata.jpg" alt="bio data image" />
+      </div>
+      <div class="bio-data">
+        <h2 class="common-heading">my bio-data</h2>
+        <p>
+          In addition to my technical expertise, I am a highly motivated team player with a proven track record of
+          success in collaborative environments.
+          My participation in group projects, Innovation Sprint and Through coding competitions,
+          I have substantially improved my problem-solving abilities and my effectiveness as a team player.
+          This portfolio highlights my academic achievements, technical proficiencies, and project experiences.
+          It features examples of both solo and group projects, showcasing my ability to apply theoretical knowledge to
+          real-world challenges.
+        </p>
+        <br />
+        <p>
+          I’m always excited to learn and evolve through internships, research projects, or industry collaborations.
+          If you have any questions, opportunities, or potential partnerships, don’t hesitate to get in touch.
+          Thank you for exploring my portfolio, and I look forward to working together to create a smarter, more
+          connected future! </p>
+
+        <div class="bio-data-stats">
+          <div class="bio-stats">
+            <h3>HTML</h3>
+            <div class="bio-progress-bar">
+              <span>90%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>CSS</h3>
+            <div class="bio-progress-bar bio-progress-2">
+              <span>90%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>JavaScript</h3>
+            <div class="bio-progress-bar bio-progress-3">
+              <span>80%</span>
+            </div>
+          </div>
+          <div class="bio-stats">
+            <h3>ReactJs</h3>
+            <div class="bio-progress-bar bio-progress-4">
+              <span>80%</span>
+            </div>
+          </div>
+
+          <div class="bio-stats">
+            <h3>MERN</h3>
+            <div class="bio-progress-bar bio-progress-5">
+              <span>75%</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="bio-data-btn">
+          <a href="https://drive.google.com/file/d/14tOW1McRs9BwYYTks0y1cid0WZkjr5z6/view?usp=drive_link" target="_blank"
+            class="btn" download> Downlaod CV </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+        Portfolio works Section Start  
+    ========================================  -->
+  <section class="section-portfolio section " id="portfolio-section">
+    <div class="container">
+      <h2 class="common-heading">Latest works</h2>
+      <p>
+        This is my personal website where I showcase all my projects and blog posts.
+      </p>
+    </div>
+
+    <div class="p-btns">
+      <button class="btn p-btn " data-btn-num="1">Websites</button>
+      <!-- <button class="btn p-btn " data-btn-num="2">Development </button>
+      <button class="btn p-btn " data-btn-num="3">Design</button> -->
+    </div>
+
+    <div class="container grid grid-three-col portfolio-images">
+      <div class="img-ovelay p-btn--1">
+        <img src="images/folio/1.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="https://swatigoswami8265.github.io/Check-Weather/" target="_blank" class="common-heading">Project
+            1</a>
+        </div>
+      </div>
+
+      <div class="img-ovelay p-btn--3">
+        <img src="images/folio/4.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="https://66e959b4ed55bbf17fc1b175--incandescent-douhua-fb6370.netlify.app/" target="_blank" class="common-heading">Project 2</a>
+        </div>
+      </div>
+
+      <div class="img-ovelay p-btn--1">
+        <img src="images/folio/3.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="https://66e9b67eac8bff3c18641593--harmonious-concha-dcad1c.netlify.app/" target="_blank" class="common-heading">Project 3</a>
+        </div>
+      </div>
+      <div class="img-ovelay p-btn--1 p-btn--2">
+        <img src="images/folio/4.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="https://swatigoswami8265.github.io/NetflixProject/" target="_blank" class="common-heading">Project 4</a>
+        </div>
+      </div>
+      <div class="img-ovelay p-btn--2">
+        <img src="images/folio/5.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="#" target="_blank" class="common-heading">Project 5</a>
+        </div>
+      </div>
+      <div class="img-ovelay p-btn--1">
+        <img src="images/folio/1.jpg" loading="lazy" alt="portfolio images " />
+        <div class="overlay">
+          <a href="#" target="_blank" class="common-heading">Project 6</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+          small intro  
+    ========================================  -->
+
+  <section class="section-work-data section ">
+    <div class="container grid grid-four-col">
+      <div>
+        <h2>Name</h2>
+        <p>Swati Goswami</p>
+      </div>
+      <div>
+        <h2>Birthday</h2>
+        <p>10 November 1998</p>
+      </div>
+      <div>
+        <h2>Email</h2>
+        <p>swati.goswami8265@gmail.com</p>
+      </div>
+      <div>
+        <h2>Address</h2>
+        <p>Village-Bijauli,MEERUT</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+          Our Resume Section Start  
+    ========================================  -->
+  <section class="section-resume section ">
+    <div class="container grid grid-two-col">
+      <!-- resume left side  -->
+      <div class="resume-img">
+        <img src="images/lazy1.jpg" alt="my resume pic" data-src="images/biodata.jpg" loading="lazy" class="lazy-img" />
+      </div>
+
+      <!-- resume right side  -->
+      <div class="resume-data">
+        <h2 class="common-heading">resume</h2>
+        <p class="resume-para">my work experience</p>
+
+        <div class="resume-data-subsection">
+          <div class="resume-data-left">
+            <h3>Web Developer</h3>
+            <div class="grid grid-two-col">
+              <p>
+                <ion-icon name="business-outline"></ion-icon> Digii Dunia
+              </p>
+              <p>
+                <ion-icon name="location-outline"></ion-icon> Meerut
+              </p>
+            </div>
+          </div>
+
+          <div class="resume-data-right">
+            <p class="resume-data-button">Internship</p>
+            <p>
+              <ion-icon name="calendar-outline"></ion-icon> <span>1st August 2023-31st October 2023 </span>
+            </p>
+          </div>
+        </div>
+
+
+        <!-- 4th work experience  -->
+        <div class="resume-data-subsection">
+          <div class="resume-data-left">
+            <h3>Completed Full Stack Web Developer</h3>
+            <div class="grid grid-two-col">
+              <p>
+                <ion-icon name="business-outline"></ion-icon> Edureka.co
+              </p>
+              <p>
+                <ion-icon name="location-outline"></ion-icon> Bangalore
+              </p>
+            </div>
+          </div>
+
+          <div class="resume-data-right">
+            <p class="resume-data-button">Internship</p>
+            <p>
+              <ion-icon name="calendar-outline"></ion-icon>5th May 2024-16 Sept 2024
+            </p>
+          </div>
+        </div>
+
+        <!-- Education section  -->
+        <div class="resume-data-bottom-subsection">
+          <p class="resume-para">Education</p>
+
+          <!-- 1st college  -->
+          <div class="resume-data-subsection ">
+            <div class="resume-data-left">
+              <h3>Bachelor in Computer Science</h3>
+              <div class="grid grid-two-col">
+                <p>
+                  <ion-icon name="business-outline"></ion-icon> FIT Engineering College Meerut affiliated to ATKU
+                  Lucknow approved by AICTE New Delhi
+                </p>
+                <p>
+                  <ion-icon name="location-outline"></ion-icon> Meerut, UP
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-data-right">
+              <p class="resume-data-button"> Bachelor </p>
+              <p>
+                <ion-icon name="calendar-outline"></ion-icon> <span>2021-2024 </span>
+              </p>
+            </div>
+          </div>
+
+          <!-- 2nd college  -->
+          <div class="resume-data-subsection margin-small">
+            <div class="resume-data-left">
+              <h3>Diploma in Computer Science</h3>
+              <div class="grid grid-two-col">
+                <p>
+                  <ion-icon name="business-outline"></ion-icon> J.P Institute Hotel Management
+                </p>
+                <p>
+                  <ion-icon name="location-outline"></ion-icon> Meerut, UP
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-data-right">
+              <p class="resume-data-button"> Polytechnic</p>
+              <p>
+                <ion-icon name="calendar-outline"></ion-icon> <span>2016-2019 </span>
+              </p>
+            </div>
+          </div>
+
+          <!-- 3rd college  -->
+          <div class="resume-data-subsection margin-small">
+            <div class="resume-data-left">
+              <h3>Senior Secondary Schooling</h3>
+              <div class="grid grid-two-col">
+                <p>
+                  <ion-icon name="business-outline"></ion-icon> Presidency Public School
+                </p>
+                <p>
+                  <ion-icon name="location-outline"></ion-icon> Meerut, UP
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-data-right">
+              <p class="resume-data-button"> 12th</p>
+              <p>
+                <ion-icon name="calendar-outline"></ion-icon> <span>2014-2016</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- 4th college  -->
+          <div class="resume-data-subsection margin-small">
+            <div class="resume-data-left">
+              <h3>Secondary Schooling</h3>
+              <div class="grid grid-two-col">
+                <p>
+                  <ion-icon name="business-outline"></ion-icon> S.K.Academy
+                </p>
+                <p>
+                  <ion-icon name="location-outline"></ion-icon> Meerut, UP
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-data-right">
+              <p class="resume-data-button"> 10th</p>
+              <p>
+                <ion-icon name="calendar-outline"></ion-icon> <span>2012-2014 </span>
+              </p>
+            </div>
+          </div>
+          <!-- end  -->
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ======================================== 
+         freelancing Section   
+    ========================================  -->
+
+  <section class="section section-freelancer ">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>I am <span> available </span> for freelancing</h2>
+      <p>Let Me Get You A Beautiful Website.</p>
+      <a href="#contact-me" class="btn"> HIRE ME </a>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+          Our  Cotnact Us Section   
+    ========================================  -->
+
+  <section class="section section-contact" id="contact-me">
+    <div class="container">
+      <h2 class="common-heading">contact us</h2>
+    </div>
+
+    <div class="section-contact-main contact-container">
+      <form>
+        <div class=" grid grid-two-col">
+          <input type="text" name="username" id="" required placeholder="Name">
+          <input type="email" name="email" required placeholder="Email" autocomplete="false">
+        </div>
+        <div>
+          <input type="text" name="subject" placeholder="Subject">
+        </div>
+        <div>
+          <textarea name="message" id="" placeholder="Message"></textarea>
+        </div>
+
+        <div>
+          <input type="submit" value="send message" class="btn">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ======================================== 
+          Our footer Section   
+    ========================================  -->
+
+  <footer class="section section-footer ">
+    <div class="container grid grid-four-col">
+      <!-- <div class="f-about">
+        <h3>About</h3>
+        <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your
+          convenience. Hope you like it.</p>
+      </div> -->
+
+      <div class="f-links">
+        <h3>Links</h3>
+        <ul>
+          <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">home</a></li>
+          <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">about</a></li>
+          <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">portfolio</a></li>
+          <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">contact</a></li>
+        </ul>
+      </div>
+
+
+      <div class="f-address">
+        <h3>Have a Questions?</h3>
+        <address>
+          <div>
+            <p> <span><ion-icon name="location-outline"></ion-icon></span> Meerut, India </p>
+          </div>
+
+          <div>
+            <p> <span><ion-icon name="call-outline"></ion-icon></span> <a href="tel:+918265933644"> +91 8265933644 </a>
+            </p>
+          </div>
+
+          <div>
+            <p> <span><ion-icon name="mail-outline"></ion-icon></span> <a href="mailto:swati.goswami8265@gamil.com">
+                swati.goswami8265@gamil.com </a> </p>
+          </div>
+        </address>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="f-social-icons">
+        <a href="https://www.instagram.com/swati.goswamii/" target="_blank">
+          <ion-icon class="icons" name="logo-instagram"></ion-icon>
+        </a>
+        <a href="www.linkedin.com/in/swati-goswami-45519a329" target="_blank">
+          <ion-icon class="icons" name="logo-Linkedin"></ion-icon>
+        </a>
+        <a href="https://wa.link/6k43of" target="_blank">
+          <ion-icon class="icons" name="logo-Whatsapp"></ion-icon>
+        </a>
+
+
+
+
+        <div class="f-credits">
+          <p>Copyright ©2024 All rights reserved | This template is made with ❤ by Swati Goswami</p>
+        </div>
+      </div>
+
+  </footer>
+
+
+
+  <!-- ======================================== 
+          Our JavaScript Section   
+    ========================================  -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Web Designer', 'I am an independent creative developer.'],
+      typeSpeed: 50,
+    });
+  </script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
